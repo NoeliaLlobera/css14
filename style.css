@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    padding: 20px 50px;
+}
+main{
+    margin;: 50px;
+    width: 500px;
+}
+.d1{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    border: black 3px solid;
+}
+.d2{
+    height: 40px;
+    width: 40px;
+    background-color: greenyellow;
+    border-radius: 45px;
+    border: black 3px solid;
+    float: left;
+    margin: -20px;
+}
+.d2:nth-child(2){
+    height: 40px;
+    width: 40px;
+    background-color: greenyellow;
+    border-radius: 45px;
+    border: black 3px solid;
+    float: right;
+    margin: 20px, -20px;
+}
+
+.d3{
+    height: 40px;
+    width: 40px;
+    background-color: greenyellow;
+    border-radius: 45px;
+    border: black 3px solid;
+    margin:-20px -20px;
+}
+.d3:nth-child(2){
+    float: right ;
+}
