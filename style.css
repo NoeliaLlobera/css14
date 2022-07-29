@@ -18,35 +18,39 @@ p{
     width: 500px;
     height: 500px;
     background-color: red;
-    border: black 3px solid
-}
-.d2{
-    height: 40px;
-    width: 40px;
-    background-color: greenyellow;
-    border-radius: 40px;
     border: black 3px solid;
-    float: left;
-    margin: -20px;
+    position: relative;
 }
-.d2:nth-child(2){
+.d2{    /*NUM 1*/
     height: 40px;
     width: 40px;
     background-color: greenyellow;
     border-radius: 45px;
     border: black 3px solid;
-    float: right;
-    margin: 20px, -20px;
+    position:absolute;
+    top:-20px;
+    left: -20px;
+}
+.d2:nth-child(2){    /*NUM 2*/
+    height: 40px;
+    width: 40px;
+    background-color: greenyellow;
+    border-radius: 45px;
+    border: black 3px solid;
+    top:480px;
 }
 
-.d3{
+.d3{                 /*NUM 3*/
     height: 40px;
     width: 40px;
     background-color: greenyellow;
     border-radius: 45px;
     border: black 3px solid;
-    margin:-20px -20px;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+
 }
-.d3:nth-child(2){
-    float: right ;
+.d3:nth-child(4){   /*NUM 4*/
+    top: 480px;
 }
